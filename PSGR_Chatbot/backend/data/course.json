@@ -1,0 +1,17 @@
+[
+
+ {
+        "keywords": ["bsc", "BSC","B.sc","B.Sc"],
+        "reply": "B.Sc programs offered in Mathematics, Physics, Computer Science"
+    },
+
+ {
+        "keywords": ["bcom", "Bcom","B.Com","B.com","b.com"],
+        "reply": "B.Com programs include General and Professional Accounting, Data Analytics, ECommerce"
+    },
+  
+ {
+        "keywords": ["Msc","msc","m.sc","M.sc"],
+        "reply": "M.Sc programs available in Science disciplines."
+    }
+  ]

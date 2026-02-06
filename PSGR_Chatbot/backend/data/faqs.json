@@ -1,0 +1,12 @@
+[
+  {
+    "domain": "general",
+    "keywords": ["full name of the college", "college full name", "name of the college"],
+    "reply": "The full name of the college is PSGR Krishnammal College for Women, Coimbatore."
+  },
+  {
+    "domain": "admission",
+    "keywords": ["admission", "apply", "eligibility"],
+    "reply": "Admissions are based on merit. Students can apply online through the college website."
+  }
+]

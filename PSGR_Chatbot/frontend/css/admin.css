@@ -1,0 +1,40 @@
+body {
+    background: #f4f6f9;
+    font-family: Arial;
+}
+
+.admin-box {
+    width: 400px;
+    margin: 100px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    background: #218838;
+}
+
+#status {
+    margin-top: 10px;
+    font-weight: bold;
+}

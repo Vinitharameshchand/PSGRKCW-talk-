@@ -1,0 +1,263 @@
+[
+    {
+        "domain": "fees",
+        "keywords": [
+            "ug fees"
+        ],
+        "reply": "Rs.15000"
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "full name of the college",
+            "college full name",
+            "name of the college"
+        ],
+        "reply": "The full name of the college is PSGR Krishnammal College for Women, Coimbatore."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "admission",
+            "apply",
+            "eligibility"
+        ],
+        "reply": "Admissions are based on merit. Students can apply online through the college website."
+    },
+    {
+        "keywords": [
+            "location",
+            "address",
+            "where is the college",
+            "college located"
+        ],
+        "reply": "The college is located in Coimbatore, Tamil Nadu, India."
+    },
+    {
+        "keywords": [
+            "contact",
+            "phone",
+            "email",
+            "office contact"
+        ],
+        "reply": "You can contact the college office at 080-49251252 or email at hr@psgrkcw.ac.in."
+    },
+    {
+        "keywords": [
+            "accreditation",
+            "affiliation",
+            "approved",
+            "recognized"
+        ],
+        "reply": "The college is affiliated with Bharathiar University and accredited by NAAC."
+    },
+    {
+        "keywords": [
+            "admission",
+            "apply",
+            "application",
+            "join",
+            "eligibility",
+            "admission start",
+            "admission date",
+            "criteria"
+        ],
+        "reply": "Admissions are based on merit. Students can apply online through the college website. Eligibility and admission dates are available in the Admissions section."
+    },
+    {
+        "keywords": [
+            "fee",
+            "fees",
+            "fee structure",
+            "payment",
+            "bcom fee",
+            "hostel fee",
+            "transport fee"
+        ],
+        "reply": "The fee structure varies depending on the course. Please visit the Fees section or contact the college office."
+    },
+    {
+        "keywords": [
+            "course",
+            "courses",
+            "program",
+            "programme",
+            "ug",
+            "undergraduate",
+            "pg",
+            "postgraduate"
+        ],
+        "reply": "The college offers UG and PG programs in Arts, Science, Commerce, and Computer Science."
+    },
+    {
+        "keywords": [
+            "scholarship",
+            "scholarships",
+            "merit scholarship",
+            "government scholarship",
+            "eligibility for scholarship"
+        ],
+        "reply": "Government and merit-based scholarships are available for eligible students. Check the Scholarships section for details."
+    },
+    {
+        "keywords": [
+            "placement",
+            "placements",
+            "job",
+            "internship",
+            "company",
+            "package",
+            "career"
+        ],
+        "reply": "The college provides placement assistance with training and campus recruitment opportunities."
+    },
+    {
+        "keywords": [
+            "hostel",
+            "hostel facility",
+            "girls hostel",
+            "boys hostel",
+            "accommodation"
+        ],
+        "reply": "Hostel facilities are available for students with food, security, and a study-friendly environment."
+    },
+    {
+        "keywords": [
+            "transport",
+            "bus",
+            "bus routes",
+            "bus timing",
+            "bus facility"
+        ],
+        "reply": "The college provides bus transport facility. Routes, timings, and transport fee details are available in the Transport section."
+    },
+    {
+        "keywords": [
+            "exam",
+            "exams",
+            "timetable",
+            "hall ticket",
+            "results",
+            "revaluation",
+            "attendance",
+            "academic calendar"
+        ],
+        "reply": "Exam schedules, hall tickets, results, and academic calendar are available in the Examination & Academics section."
+    },
+    {
+        "keywords": [
+            "library",
+            "digital library",
+            "wifi",
+            "laboratory",
+            "lab",
+            "sports",
+            "gym",
+            "medical",
+            "cafeteria"
+        ],
+        "reply": "The college provides excellent campus facilities including library, laboratories, sports, gym, medical aid, and cafeteria."
+    },
+    {
+        "keywords": [
+            "grievance",
+            "counseling",
+            "anti-ragging",
+            "clubs",
+            "nss",
+            "ncc",
+            "women safety"
+        ],
+        "reply": "Student support services include grievance redressal, counseling, anti-ragging committee, student clubs, NSS/NCC, and women safety measures."
+    },
+    {
+        "keywords": [
+            "bonafide certificate",
+            "transfer certificate",
+            "conduct certificate",
+            "course completion certificate"
+        ],
+        "reply": "You can apply for bonafide, transfer, conduct, and course completion certificates via the college office or website."
+    },
+    {
+        "keywords": [
+            "cultural events",
+            "seminars",
+            "workshops",
+            "annual day",
+            "competitions",
+            "industrial visits",
+            "events"
+        ],
+        "reply": "The college conducts various events including cultural events, seminars, workshops, annual day, competitions, and industrial visits."
+    },
+    {
+        "keywords": [
+            "hi",
+            "hello",
+            "hey"
+        ],
+        "reply": "Hello! 👋 How can I help you today?"
+    },
+    {
+        "keywords": [
+            "thank you",
+            "thanks"
+        ],
+        "reply": "You're welcome! 😊 Happy to help."
+    },
+    {
+        "keywords": [
+            "bye",
+            "exit"
+        ],
+        "reply": "Thank you for visiting. Have a great day! 👋"
+    },
+    {
+        "domain": "ug courses",
+        "keywords": [
+            "ug courses"
+        ],
+        "reply": "Bcom\nBBA\nBSC"
+    },
+    {
+        "domain": "fee structure",
+        "keywords": [
+            "ug fee",
+            "bcom fee"
+        ],
+        "reply": "Self Finance Fee: Rs15000, Further information contact college admin"
+    },
+    {
+        "domain": "activities",
+        "keywords": [
+            "activities"
+        ],
+        "reply": "college activities: \nCollege Events\nInternational Conference/Workshop"
+    },
+    {
+        "domain": "hostel",
+        "keywords": [
+            "hostel"
+        ],
+        "reply": "good facilities"
+    },
+    {
+        "domain": "school",
+        "keywords": [
+            "school"
+        ],
+        "reply": "good facilities of school environment"
+    },
+    {
+        "domain": "workshop",
+        "keywords": [
+            "workshop",
+            "national workshop",
+            "international workshop",
+            "college workshop",
+            "stduents workshop"
+        ],
+        "reply": "The PSGR provides a national, international workshop to the staffs and students"
+    }
+]
