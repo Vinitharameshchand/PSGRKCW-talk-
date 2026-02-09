@@ -557,7 +557,7 @@ body {
 }
 
 #chat-messages::-webkit-scrollbar-thumb {
-    background: var(--primary-purple);
+    background: linear-gradient(to bottom, var(--accent-pink), var(--primary-light), var(--primary-purple));
     border-radius: 10px;
 }
 
@@ -627,7 +627,7 @@ body {
 }
 
 #chat-input-container button {
-    background: linear-gradient(135deg, var(--primary-purple) 0%, var(--primary-dark) 100%);
+    background: linear-gradient(135deg, var(--accent-pink) 0%, var(--primary-light) 25%, var(--primary-purple) 50%, var(--primary-dark) 75%, var(--accent-blue) 100%);
     color: white;
     border: none;
     padding: 12px 24px;
@@ -635,7 +635,7 @@ body {
     cursor: pointer;
     font-weight: 600;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(133, 71, 176, 0.3);
+    box-shadow: 0 4px 15px rgba(133, 71, 176, 0.4);
 }
 
 #chat-input-container button:hover {
