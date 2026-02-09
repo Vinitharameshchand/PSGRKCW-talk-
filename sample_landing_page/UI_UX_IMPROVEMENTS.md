@@ -140,6 +140,8 @@ Comprehensive UI/UX enhancements applied to the PSGRKCW landing page to create a
 
 ## 🚀 Result
 
+
+
 The landing page now features:
 - ✅ Modern, premium aesthetic
 - ✅ Smooth, delightful animations
