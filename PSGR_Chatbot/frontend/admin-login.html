@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Login - PSGRKCW FAQ Manager</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+
+<body class="login-page">
+    <div class="login-container">
+        <div class="login-card">
+            <div class="login-header">
+                <h1>🔐 Admin Login</h1>
+                <p>PSGR Krishnammal College for Women</p>
+                <p class="subtitle">FAQ Management System</p>
+            </div>
+
+            <div id="error-message" class="error-message" style="display: none;"></div>
+
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" placeholder="Enter your username" required
+                        autocomplete="username">
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required
+                        autocomplete="current-password">
+                </div>
+
+                <button type="submit" class="btn-primary" id="login-btn">
+                    <span id="login-text">Login</span>
+                    <span id="login-loader" class="loader" style="display: none;"></span>
+                </button>
+            </form>
+
+            <div class="login-footer">
+                <p><a href="http://127.0.0.1:8080" style="text-decoration: none; color: var(--primary-color);">← Back to
+                        Website</a></p>
+                <p style="margin-top: 10px;">For assistance, contact IT support</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/admin-login.js"></script>
+</body>
+
+</html>
