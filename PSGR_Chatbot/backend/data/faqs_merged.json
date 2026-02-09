@@ -559,5 +559,35 @@
             "college deans"
         ],
         "reply": "Deans include Dr. A. Shamitha Begum (Academic), Mrs. S. Vasandha (Student Affairs), Dr. Ramesh Subramani (Research), and others overseeing various departments."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "founders",
+            "college founders",
+            "who founded the college",
+            "family founders"
+        ],
+        "reply": "The Founders of PSGR Krishnammal College for Women are Sri. G.R. Govindarajulu and Smt. G. Chandrakanthi."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "managing trustee",
+            "trustee",
+            "sri g rangaswamy",
+            "who is the managing trustee"
+        ],
+        "reply": "The Managing Trustee is Sri. G. Rangaswamy."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "chairperson",
+            "founder trustee",
+            "smt r nandini",
+            "who is the chairperson"
+        ],
+        "reply": "The Chairperson and Founder Trustee is Smt. R. Nandini."
     }
 ]
