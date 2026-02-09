@@ -8,7 +8,7 @@
             "application process",
             "admission procedure"
         ],
-        "reply": "Admission is done mainly through online application via the official college website. Selection is based on merit, eligibility criteria, and reservation norms. Shortlisted candidates are called for counseling/admission confirmation."
+        "reply": "Admission is done mainly through online application via the official college website. You can apply here: https://www.psgrkcw.ac.in/admission-enquiry-form/ . Selection is based on merit, eligibility criteria, and reservation norms. Shortlisted candidates are called for counseling/admission confirmation."
     },
     {
         "domain": "general",
@@ -18,7 +18,7 @@
             "class timings",
             "college schedule"
         ],
-        "reply": "College timings are generally 8:30 AM to 1:30 PM for most UG and PG programmes. Some courses may have extended hours for labs or activities."
+        "reply": "College timings are generally 8:30 AM to 12:45 PM adided and for sf 12:45pm to 5:20 pm for most UG and PG programmes. Some courses may have extended hours for labs or activities."
     },
     {
         "domain": "fees",
@@ -589,5 +589,27 @@
             "who is the chairperson"
         ],
         "reply": "The Chairperson and Founder Trustee is Smt. R. Nandini."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "admission contact",
+            "admission phone number",
+            "admission email",
+            "contact for admission",
+            "admission query",
+            "contract queries"
+        ],
+        "reply": "For admission queries, please contact 080 49251252 or email admission@psgrkcw.ac.in."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "admission link",
+            "admission form link",
+            "online admission link",
+            "application link"
+        ],
+        "reply": "You can access the admission enquiry form here: https://www.psgrkcw.ac.in/admission-enquiry-form/"
     }
 ]
