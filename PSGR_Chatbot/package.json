@@ -1,0 +1,13 @@
+{
+    "name": "psgr-chatbot",
+    "version": "1.0.0",
+    "description": "PSGR College Chatbot Project",
+    "scripts": {
+        "backend": "cd backend && ./venv/bin/python app.py",
+        "frontend": "cd frontend && npx -y http-server -p 3000",
+        "dev": "npx -y concurrently \"npm run backend\" \"npm run frontend\""
+    },
+    "dependencies": {
+        "concurrently": "^8.2.2"
+    }
+}

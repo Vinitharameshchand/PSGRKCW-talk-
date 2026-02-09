@@ -6,26 +6,26 @@ function sendMessage() {
     addMessage("You", message, "user");
     input.value = "";
 
-    fetch("http://127.0.0.1:5000/chat", {
+    fetch("http://127.0.0.1:5001/chat", {
         method: "POST",
-        headers: {"Content-Type": "application/json"},
+        headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message })
     })
-    .then(res => res.json())
-    .then(data => {
-        addMessage(
-            "Bot",
-            data.reply,
-            "bot",
-            `Domain: ${data.domain} | Confidence: ${data.confidence}`
-        );
-    })
-    .catch(() => {
-        addMessage("Bot", "Server not reachable.", "bot");
-    });
+        .then(res => res.json())
+        .then(data => {
+            addMessage(
+                "Bot",
+                data.reply,
+                "bot",
+                `Domain: ${data.domain} | Confidence: ${data.confidence}`
+            );
+        })
+        .catch(() => {
+            addMessage("Bot", "Server not reachable.", "bot");
+        });
 }
 
-function addMessage(sender, text, cls, meta="") {
+function addMessage(sender, text, cls, meta = "") {
     const box = document.getElementById("chat-box");
     const div = document.createElement("div");
     div.className = cls;

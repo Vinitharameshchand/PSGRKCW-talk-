@@ -4,11 +4,11 @@ import time
 def test_chat():
     url = "http://127.0.0.1:5001/chat"
     questions = [
-        "Hi",
-        "What are the fees?",
-        "Tell me about admissions",
-        "Who are the top placement companies?",
-        "Where is the college located?"
+        "What is the admission process?",
+        "What are the college timings?",
+        "Is there a dress code?",
+        "Who is the principal of PSGRKCW?",
+        "How are the lab facilities?"
     ]
 
     print("🚀 Starting Chatbot API Test...")
