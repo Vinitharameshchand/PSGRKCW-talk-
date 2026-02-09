@@ -611,19 +611,5 @@
             "application link"
         ],
         "reply": "You can access the admission enquiry form here: https://www.psgrkcw.ac.in/admission-enquiry-form/"
-    },
-    {
-        "domain": "sports",
-        "keywords": [
-            "basketball"
-        ],
-        "reply": "basketball team is best team"
-    },
-    {
-        "domain": "facilities",
-        "keywords": [
-            "bca mam"
-        ],
-        "reply": "Shiba , and hepzi mam are best"
     }
 ]

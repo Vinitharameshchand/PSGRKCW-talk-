@@ -7,7 +7,8 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
-CORS(app)
+app.secret_key = 'psgrkcw_admin_secret_key_2024'  # Change this in production
+CORS(app, supports_credentials=True)
 
 FAQ_FILE = "data/faqs_merged.json"
 
@@ -32,6 +33,15 @@ def build_vectorizer():
     return vec, matrix
 
 vectorizer, tfidf_matrix = build_vectorizer()
+
+# ---------------- RELOAD FAQs ----------------
+@app.route("/reload-faqs", methods=["POST"])
+def reload_faqs():
+    """Reload FAQs from file and rebuild vectorizer"""
+    global faqs, vectorizer, tfidf_matrix
+    faqs = load_faqs()
+    vectorizer, tfidf_matrix = build_vectorizer()
+    return jsonify({"message": "FAQs reloaded successfully", "total": len(faqs)})
 
 # ---------------- HOME ----------------
 @app.route("/", methods=["GET"])
@@ -77,32 +87,9 @@ def chat():
         "method": "none"
     })
 
-# ---------------- ADMIN ADD FAQ ----------------
-@app.route("/admin/add-faq", methods=["POST"])
-def add_faq():
-    global faqs, vectorizer, tfidf_matrix
-    data = request.get_json()
-
-    domain = data.get("domain")
-    keywords = data.get("keywords")
-    reply = data.get("reply")
-
-    if not domain or not keywords or not reply:
-        return jsonify({"error": "All fields are required"}), 400
-
-    faqs.append({
-        "domain": domain,
-        "keywords": [k.strip().lower() for k in keywords],
-        "reply": reply
-    })
-
-    with open(FAQ_FILE, "w", encoding="utf-8") as f:
-        json.dump(faqs, f, indent=4, ensure_ascii=False)
-
-    # Rebuild vectorizer
-    vectorizer, tfidf_matrix = build_vectorizer()
-
-    return jsonify({"message": "FAQ added successfully"})
+# ---------------- IMPORT ADMIN ROUTES ----------------
+from admin_routes import init_admin_routes
+init_admin_routes(app)
 
 if __name__ == "__main__":
     app.run(port=5001, debug=True, use_reloader=False)
