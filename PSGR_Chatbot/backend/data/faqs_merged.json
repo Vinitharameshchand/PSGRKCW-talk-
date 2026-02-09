@@ -470,5 +470,94 @@
             "exit"
         ],
         "reply": "Thank you for visiting. Have a great day! 👋"
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean academic affairs",
+            "academic dean",
+            "who is the dean of academic affairs"
+        ],
+        "reply": "The Dean of Academic Affairs is Dr. A. Shamitha Begum."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean student affairs",
+            "student dean",
+            "who is the dean of student affairs"
+        ],
+        "reply": "The Dean of Student Affairs is Mrs. S. Vasandha."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean vocational programmes",
+            "vocational dean"
+        ],
+        "reply": "The Dean of Vocational Programmes is Mrs. G. Kalavathi."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean research",
+            "research dean",
+            "who is the dean of research"
+        ],
+        "reply": "The Dean of Research is Dr. Ramesh Subramani."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean costume design",
+            "dean apparel",
+            "costume dean"
+        ],
+        "reply": "The Dean of Costume & Apparel Designing & Academic Coordinator is Dr. Shanthi Radhakrishnan."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean mathematical sciences",
+            "maths dean",
+            "mathematics dean"
+        ],
+        "reply": "The Dean of Mathematical Sciences is Dr. L. Lakshmanan."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean academic support",
+            "alumni relations dean",
+            "alumni dean"
+        ],
+        "reply": "The Dean of Academic Support and Alumni Relations is Dr. R. Padmavathi."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean industry relations",
+            "grgsms dean",
+            "industry relations"
+        ],
+        "reply": "The Dean of Industry Relations (GRGSMS) is Dr. Vandana Madhavkumar."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "director campus operations",
+            "campus director",
+            "international relations director"
+        ],
+        "reply": "The Director of Campus Operations / International Relations is G. Kalaichelvan, Ph.D."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "list of deans",
+            "who are the deans",
+            "college deans"
+        ],
+        "reply": "Deans include Dr. A. Shamitha Begum (Academic), Mrs. S. Vasandha (Student Affairs), Dr. Ramesh Subramani (Research), and others overseeing various departments."
     }
 ]
