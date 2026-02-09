@@ -6,7 +6,7 @@ function sendMessage() {
     addMessage("You", message, "user");
     input.value = "";
 
-    fetch("http://127.0.0.1:5001/chat", {
+    fetch(`${config.API_BASE_URL}/chat`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message })

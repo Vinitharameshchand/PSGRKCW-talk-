@@ -3,7 +3,7 @@
  * Handles authentication for FAQ management system
  */
 
-const API_BASE = 'http://127.0.0.1:5001';
+const API_BASE = config.API_BASE_URL;
 
 document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('login-form');

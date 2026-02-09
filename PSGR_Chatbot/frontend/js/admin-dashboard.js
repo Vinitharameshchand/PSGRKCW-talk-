@@ -3,7 +3,7 @@
  * Manages FAQ CRUD operations
  */
 
-const API_BASE = 'http://127.0.0.1:5001';
+const API_BASE = config.API_BASE_URL;
 let currentFAQs = [];
 
 document.addEventListener('DOMContentLoaded', () => {
