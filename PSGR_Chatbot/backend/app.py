@@ -22,9 +22,12 @@ FAQ_FILE = os.path.join(BASE_DIR, "data/faqs_merged.json")
 
 # ---------------- INITIALIZE ENGINES ----------------
 def load_faqs():
-    if os.path.exists(FAQ_FILE):
-        with open(FAQ_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
+    try:
+        if os.path.exists(FAQ_FILE):
+            with open(FAQ_FILE, "r", encoding="utf-8") as f:
+                return json.load(f)
+    except Exception as e:
+        print(f"Error loading FAQs: {e}")
     return []
 
 faqs = load_faqs()
@@ -32,13 +35,18 @@ faqs = load_faqs()
 # Precompute TF-IDF
 def build_vectorizer():
     global vectorizer, tfidf_matrix, faq_sentences, faqs
-    faq_sentences = [" ".join(f["keywords"]) for f in faqs]
-    if not faq_sentences:
+    try:
+        faq_sentences = [" ".join(f.get("keywords", [])) for f in faqs]
+        if not faq_sentences or all(not s.strip() for s in faq_sentences):
+            print("No valid FAQ sentences for vectorizer.")
+            return None, None
+        
+        vec = TfidfVectorizer(ngram_range=(1, 2), stop_words='english')
+        matrix = vec.fit_transform(faq_sentences)
+        return vec, matrix
+    except Exception as e:
+        print(f"Error building vectorizer: {e}")
         return None, None
-    
-    vec = TfidfVectorizer(ngram_range=(1, 2), stop_words='english')
-    matrix = vec.fit_transform(faq_sentences)
-    return vec, matrix
 
 vectorizer, tfidf_matrix = build_vectorizer()
 
