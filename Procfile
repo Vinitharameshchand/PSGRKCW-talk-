@@ -1,1 +1,1 @@
-web: gunicorn --chdir PSGR_Chatbot/backend app:app
+web: gunicorn --chdir PSGR_Chatbot/backend -b 0.0.0.0:$PORT app:app
