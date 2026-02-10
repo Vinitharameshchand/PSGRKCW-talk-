@@ -6,6 +6,18 @@
 const API_BASE = config.API_BASE_URL;
 let currentFAQs = [];
 
+// Helper function to get headers with auth token
+function getAuthHeaders(additionalHeaders = {}) {
+    const authToken = localStorage.getItem('admin_auth_token');
+    const headers = { ...additionalHeaders };
+
+    if (authToken) {
+        headers['Authorization'] = `Bearer ${authToken}`;
+    }
+
+    return headers;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     // Check authentication
     checkAuth();
@@ -25,30 +37,54 @@ document.addEventListener('DOMContentLoaded', () => {
 // ============ AUTHENTICATION ============
 async function checkAuth() {
     try {
+        const authToken = localStorage.getItem('admin_auth_token');
+        const headers = {};
+
+        // Add Authorization header if token exists (for cross-domain)
+        if (authToken) {
+            headers['Authorization'] = `Bearer ${authToken}`;
+        }
+
         const response = await fetch(`${API_BASE}/admin/check-auth`, {
-            credentials: 'include'
+            credentials: 'include',
+            headers: headers
         });
         const data = await response.json();
 
         if (!data.authenticated) {
+            localStorage.removeItem('admin_username');
+            localStorage.removeItem('admin_auth_token');
             window.location.href = 'admin-login.html';
         }
     } catch (error) {
         console.error('Auth check error:', error);
+        localStorage.removeItem('admin_username');
+        localStorage.removeItem('admin_auth_token');
         window.location.href = 'admin-login.html';
     }
 }
 
 async function logout() {
     try {
+        const authToken = localStorage.getItem('admin_auth_token');
+        const headers = {};
+        if (authToken) {
+            headers['Authorization'] = `Bearer ${authToken}`;
+        }
+
         await fetch(`${API_BASE}/admin/logout`, {
             method: 'POST',
-            credentials: 'include'
+            credentials: 'include',
+            headers: headers
         });
         localStorage.removeItem('admin_username');
+        localStorage.removeItem('admin_auth_token');
         window.location.href = 'index.html';
     } catch (error) {
         console.error('Logout error:', error);
+        localStorage.removeItem('admin_username');
+        localStorage.removeItem('admin_auth_token');
+        window.location.href = 'index.html';
     }
 }
 
@@ -118,7 +154,8 @@ function showSection(sectionName) {
 async function loadStats() {
     try {
         const response = await fetch(`${API_BASE}/admin/stats`, {
-            credentials: 'include'
+            credentials: 'include',
+            headers: getAuthHeaders()
         });
         const data = await response.json();
 
@@ -139,7 +176,8 @@ async function loadFAQs() {
         listContainer.innerHTML = '<div class="loading">Loading FAQs...</div>';
 
         const response = await fetch(`${API_BASE}/admin/faqs`, {
-            credentials: 'include'
+            credentials: 'include',
+            headers: getAuthHeaders()
         });
         const data = await response.json();
 
@@ -225,9 +263,7 @@ async function addFAQ(e) {
     try {
         const response = await fetch(`${API_BASE}/admin/faqs`, {
             method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
+            headers: getAuthHeaders({ 'Content-Type': 'application/json' }),
             credentials: 'include',
             body: JSON.stringify({ domain, keywords, reply })
         });
@@ -246,7 +282,8 @@ async function addFAQ(e) {
             // Reload chatbot FAQs
             await fetch(`${API_BASE}/reload-faqs`, {
                 method: 'POST',
-                credentials: 'include'
+                credentials: 'include',
+                headers: getAuthHeaders()
             });
         } else {
             showMessage(messageDiv, data.error || 'Failed to add FAQ', 'error');
@@ -290,9 +327,7 @@ async function updateFAQ(e) {
     try {
         const response = await fetch(`${API_BASE}/admin/faqs/${index}`, {
             method: 'PUT',
-            headers: {
-                'Content-Type': 'application/json'
-            },
+            headers: getAuthHeaders({ 'Content-Type': 'application/json' }),
             credentials: 'include',
             body: JSON.stringify({ domain, keywords, reply })
         });
@@ -307,7 +342,8 @@ async function updateFAQ(e) {
             // Reload chatbot FAQs
             await fetch(`${API_BASE}/reload-faqs`, {
                 method: 'POST',
-                credentials: 'include'
+                credentials: 'include',
+                headers: getAuthHeaders()
             });
 
             alert('FAQ updated successfully! ✅');
@@ -334,7 +370,8 @@ async function deleteFAQ(index) {
     try {
         const response = await fetch(`${API_BASE}/admin/faqs/${index}`, {
             method: 'DELETE',
-            credentials: 'include'
+            credentials: 'include',
+            headers: getAuthHeaders()
         });
 
         const data = await response.json();
@@ -346,7 +383,8 @@ async function deleteFAQ(index) {
             // Reload chatbot FAQs
             await fetch(`${API_BASE}/reload-faqs`, {
                 method: 'POST',
-                credentials: 'include'
+                credentials: 'include',
+                headers: getAuthHeaders()
             });
 
             alert('FAQ deleted successfully! ✅');
@@ -373,7 +411,8 @@ async function searchFAQs() {
         resultsDiv.innerHTML = '<div class="loading">Searching...</div>';
 
         const response = await fetch(`${API_BASE}/admin/faqs/search?q=${encodeURIComponent(query)}`, {
-            credentials: 'include'
+            credentials: 'include',
+            headers: getAuthHeaders()
         });
         const data = await response.json();
 
@@ -412,7 +451,8 @@ async function searchFAQs() {
 async function exportFAQs() {
     try {
         const response = await fetch(`${API_BASE}/admin/faqs/export`, {
-            credentials: 'include'
+            credentials: 'include',
+            headers: getAuthHeaders()
         });
         const data = await response.json();
 

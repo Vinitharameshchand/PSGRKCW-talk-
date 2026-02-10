@@ -45,8 +45,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = await response.json();
 
             if (response.ok && data.success) {
-                // Store username in localStorage
+                // Store username and auth token in localStorage
                 localStorage.setItem('admin_username', data.username);
+                localStorage.setItem('admin_auth_token', data.auth_token);
 
                 // Redirect to dashboard
                 window.location.href = 'admin.html';

@@ -28,9 +28,24 @@ def login_required(f):
     """Decorator to protect admin routes"""
     @wraps(f)
     def decorated_function(*args, **kwargs):
-        if not session.get('admin_logged_in'):
-            return jsonify({"error": "Unauthorized. Please login."}), 401
-        return f(*args, **kwargs)
+        # Check session first (for localhost)
+        if session.get('admin_logged_in'):
+            return f(*args, **kwargs)
+        
+        # Check Authorization header (for cross-domain)
+        auth_header = request.headers.get('Authorization', '')
+        if auth_header.startswith('Bearer '):
+            token = auth_header.replace('Bearer ', '')
+            # Validate token
+            import hashlib
+            import time
+            for username, password in ADMIN_CREDENTIALS.items():
+                token_string = f"{username}:{password}:{int(time.time() // 3600)}"
+                valid_token = hashlib.sha256(token_string.encode()).hexdigest()
+                if token == valid_token:
+                    return f(*args, **kwargs)
+        
+        return jsonify({"error": "Unauthorized. Please login."}), 401
     return decorated_function
 
 # ---------------- HELPER FUNCTIONS ----------------
@@ -111,12 +126,21 @@ def init_admin_routes(app):
             password = data.get('password', '').strip()
             
             if username in ADMIN_CREDENTIALS and ADMIN_CREDENTIALS[username] == password:
+                # Set session for same-domain (localhost)
                 session['admin_logged_in'] = True
                 session['admin_username'] = username
+                
+                # Generate simple token for cross-domain (Vercel to Render)
+                import hashlib
+                import time
+                token_string = f"{username}:{password}:{int(time.time() // 3600)}"
+                auth_token = hashlib.sha256(token_string.encode()).hexdigest()
+                
                 return jsonify({
                     "success": True,
                     "message": "Login successful",
-                    "username": username
+                    "username": username,
+                    "auth_token": auth_token  # Token for cross-domain auth
                 })
             else:
                 return jsonify({
@@ -135,9 +159,32 @@ def init_admin_routes(app):
     @app.route('/admin/check-auth', methods=['GET'])
     def check_auth():
         """Check if admin is authenticated"""
+        # Check session first (for localhost)
+        if session.get('admin_logged_in'):
+            return jsonify({
+                "authenticated": True,
+                "username": session.get('admin_username', '')
+            })
+        
+        # Check Authorization header (for cross-domain)
+        auth_header = request.headers.get('Authorization', '')
+        if auth_header.startswith('Bearer '):
+            token = auth_header.replace('Bearer ', '')
+            # Validate token
+            import hashlib
+            import time
+            for username, password in ADMIN_CREDENTIALS.items():
+                token_string = f"{username}:{password}:{int(time.time() // 3600)}"
+                valid_token = hashlib.sha256(token_string.encode()).hexdigest()
+                if token == valid_token:
+                    return jsonify({
+                        "authenticated": True,
+                        "username": username
+                    })
+        
         return jsonify({
-            "authenticated": session.get('admin_logged_in', False),
-            "username": session.get('admin_username', '')
+            "authenticated": False,
+            "username": ''
         })
     
     @app.route('/admin/faqs', methods=['GET'])
