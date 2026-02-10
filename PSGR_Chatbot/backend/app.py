@@ -11,10 +11,15 @@ app.secret_key = os.environ.get("SECRET_KEY", "dev_fallback_key")
 # Explicitly allow Vercel origin for credentials path
 CORS(app, supports_credentials=True, origins=[
     "https://psgrkcw-talk.vercel.app",
+    "https://psgrkcwsamplebot.vercel.app",  # Actual deployed Vercel URL
     "http://127.0.0.1:8080",
     "http://localhost:8080",
+    "http://127.0.0.1:5500",
+    "http://localhost:5500",
     "http://127.0.0.1:3000",
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "http://127.0.0.1:5173",
+    "http://localhost:5173"
 ])
 
 print("--- BACKEND STARTING ---")
