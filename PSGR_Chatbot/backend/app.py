@@ -7,9 +7,15 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("SECRET_KEY", "dev_fallback_key")  # Change this in production
-CORS(app, supports_credentials=True)
+app.secret_key = os.environ.get("SECRET_KEY", "dev_fallback_key")
+# Explicitly allow Vercel origin for credentials path
+CORS(app, supports_credentials=True, origins=[
+    "https://psgrkcw-talk.vercel.app",
+    "http://127.0.0.1:8080",
+    "http://localhost:8080"
+])
 
+print("--- BACKEND STARTING ---")
 FAQ_FILE = "data/faqs_merged.json"
 
 # ---------------- INITIALIZE ENGINES ----------------
