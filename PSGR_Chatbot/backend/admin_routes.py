@@ -16,8 +16,9 @@ ADMIN_CREDENTIALS = {
     "admission": "admission2024"
 }
 
-FAQ_FILE = "data/faqs_merged.json"
-BACKUP_DIR = "data/backups"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FAQ_FILE = os.path.join(BASE_DIR, "data/faqs_merged.json")
+BACKUP_DIR = os.path.join(BASE_DIR, "data/backups")
 
 # Ensure backup directory exists
 os.makedirs(BACKUP_DIR, exist_ok=True)

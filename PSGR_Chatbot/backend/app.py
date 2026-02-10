@@ -16,7 +16,9 @@ CORS(app, supports_credentials=True, origins=[
 ])
 
 print("--- BACKEND STARTING ---")
-FAQ_FILE = "data/faqs_merged.json"
+# Handle absolute paths for deployment
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+FAQ_FILE = os.path.join(BASE_DIR, "data/faqs_merged.json")
 
 # ---------------- INITIALIZE ENGINES ----------------
 def load_faqs():
@@ -103,6 +105,6 @@ def health():
 
 # ---------------- RUN APP ----------------
 if __name__ == "__main__":
-    import os
+    print(f"Starting Flask app on port {os.environ.get('PORT', 5001)}")
     port = int(os.environ.get("PORT", 5001))
     app.run(host="0.0.0.0", port=port)
