@@ -7,7 +7,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 app = Flask(__name__)
-app.secret_key = 'psgrkcw_admin_secret_key_2024'  # Change this in production
+app.secret_key = os.environ.get("SECRET_KEY", "dev_fallback_key")  # Change this in production
 CORS(app, supports_credentials=True)
 
 FAQ_FILE = "data/faqs_merged.json"
@@ -90,6 +90,13 @@ def chat():
 # ---------------- IMPORT ADMIN ROUTES ----------------
 from admin_routes import init_admin_routes
 init_admin_routes(app)
+# ---------------- HEALTH CHECK ----------------
+@app.route("/health")
+def health():
+    return {"status": "ok"}
 
+# ---------------- RUN APP ----------------
 if __name__ == "__main__":
-    app.run(port=5001, debug=True, use_reloader=False)
+    import os
+    port = int(os.environ.get("PORT", 5001))
+    app.run(host="0.0.0.0", port=port)
