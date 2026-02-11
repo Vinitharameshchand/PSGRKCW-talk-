@@ -1,0 +1,1270 @@
+[
+    {
+        "domain": "admission",
+        "keywords": [
+            "admission",
+            "apply",
+            "application",
+            "join",
+            "eligibility",
+            "admission start",
+            "admission date",
+            "criteria"
+        ],
+        "reply": "Admissions are based on merit. Students can apply online through the college website. Eligibility and admission dates are available in the Admissions section."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "bsc",
+            "bsc",
+            "b.sc",
+            "b.sc"
+        ],
+        "reply": "B.Sc programs offered in Mathematics, Physics, Computer Science"
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "bcom",
+            "bcom",
+            "b.com",
+            "b.com",
+            "b.com"
+        ],
+        "reply": "B.Com programs include General and Professional Accounting, Data Analytics, ECommerce"
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "msc",
+            "msc",
+            "m.sc",
+            "m.sc"
+        ],
+        "reply": "M.Sc programs available in Science disciplines."
+    },
+    {
+        "domain": "fees",
+        "keywords": [
+            "ug fees"
+        ],
+        "reply": "Rs.15000"
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "full name of the college",
+            "college full name",
+            "name of the college"
+        ],
+        "reply": "The full name of the college is PSGR Krishnammal College for Women, Coimbatore."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "admission",
+            "apply",
+            "eligibility"
+        ],
+        "reply": "Admissions are based on merit. Students can apply online through the college website."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "location",
+            "address",
+            "where is the college",
+            "college located"
+        ],
+        "reply": "The college is located in Coimbatore, Tamil Nadu, India."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "contact",
+            "phone",
+            "email",
+            "office contact"
+        ],
+        "reply": "You can contact the college office at 080-49251252 or email at hr@psgrkcw.ac.in."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "accreditation",
+            "affiliation",
+            "approved",
+            "recognized"
+        ],
+        "reply": "The college is affiliated with Bharathiar University and accredited by NAAC."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "fee",
+            "fees",
+            "fee structure",
+            "payment",
+            "bcom fee",
+            "hostel fee",
+            "transport fee"
+        ],
+        "reply": "The fee structure varies depending on the course. Please visit the Fees section or contact the college office."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "course",
+            "courses",
+            "program",
+            "programme",
+            "ug",
+            "undergraduate",
+            "pg",
+            "postgraduate"
+        ],
+        "reply": "The college offers UG and PG programs in Arts, Science, Commerce, and Computer Science."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "scholarship",
+            "scholarships",
+            "merit scholarship",
+            "government scholarship",
+            "eligibility for scholarship"
+        ],
+        "reply": "Government and merit-based scholarships are available for eligible students. Check the Scholarships section for details."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "placement",
+            "placements",
+            "job",
+            "internship",
+            "company",
+            "package",
+            "career"
+        ],
+        "reply": "The college provides placement assistance with training and campus recruitment opportunities."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "hostel",
+            "hostel facility",
+            "girls hostel",
+            "boys hostel",
+            "accommodation"
+        ],
+        "reply": "Hostel facilities are available for students with food, security, and a study-friendly environment."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "transport",
+            "bus",
+            "bus routes",
+            "bus timing",
+            "bus facility"
+        ],
+        "reply": "The college provides bus transport facility. Routes, timings, and transport fee details are available in the Transport section."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "exam",
+            "exams",
+            "timetable",
+            "hall ticket",
+            "results",
+            "revaluation",
+            "attendance",
+            "academic calendar"
+        ],
+        "reply": "Exam schedules, hall tickets, results, and academic calendar are available in the Examination & Academics section."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "library",
+            "digital library",
+            "wifi",
+            "laboratory",
+            "lab",
+            "sports",
+            "gym",
+            "medical",
+            "cafeteria"
+        ],
+        "reply": "The college provides excellent campus facilities including library, laboratories, sports, gym, medical aid, and cafeteria."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "grievance",
+            "counseling",
+            "anti-ragging",
+            "clubs",
+            "nss",
+            "ncc",
+            "women safety"
+        ],
+        "reply": "Student support services include grievance redressal, counseling, anti-ragging committee, student clubs, NSS/NCC, and women safety measures."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "bonafide certificate",
+            "transfer certificate",
+            "conduct certificate",
+            "course completion certificate"
+        ],
+        "reply": "You can apply for bonafide, transfer, conduct, and course completion certificates via the college office or website."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "cultural events",
+            "seminars",
+            "workshops",
+            "annual day",
+            "competitions",
+            "industrial visits",
+            "events"
+        ],
+        "reply": "The college conducts various events including cultural events, seminars, workshops, annual day, competitions, and industrial visits."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "hi",
+            "hello",
+            "hey"
+        ],
+        "reply": "Hello! 👋 How can I help you today?"
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "thank you",
+            "thanks"
+        ],
+        "reply": "You're welcome! 😊 Happy to help."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "bye",
+            "exit"
+        ],
+        "reply": "Thank you for visiting. Have a great day! 👋"
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "admission process",
+            "applying",
+            "how to apply",
+            "application"
+        ],
+        "reply": "Admission is done mainly through online application via the official college website. Selection is based on merit, eligibility criteria, and reservation norms. Shortlisted candidates are called for counseling/admission confirmation."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "college timings",
+            "hours",
+            "college time",
+            "opening hours"
+        ],
+        "reply": "College timings are generally 8:30 AM to 1:30 PM for most UG and PG programmes. Some courses may have extended hours for labs or activities."
+    },
+    {
+        "domain": "fees",
+        "keywords": [
+            "fees per semester",
+            "semester fees",
+            "cost per semester",
+            "tuition fees"
+        ],
+        "reply": "Fees vary by course. Please visit the college office for specific details regarding your chosen programme."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "departments",
+            "academic departments",
+            "list of departments"
+        ],
+        "reply": "The college has 30+ academic departments across Arts, Science, Commerce, Management, Computer Science, Languages, Social Work, Physical Education, and Research."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "how many courses",
+            "courses offered",
+            "number of courses"
+        ],
+        "reply": "PSGRKCW offers 80+ courses, including UG, PG, Diploma, Certificate, M.Phil., and Ph.D. programmes."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "dress code",
+            "uniform",
+            "clothing",
+            "modest attire"
+        ],
+        "reply": "Yes. Students are expected to wear decent and modest attire. Traditional and formal dressing is encouraged. There is no specific uniform for regular days."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "available courses",
+            "krishnammal college courses",
+            "ug pg courses"
+        ],
+        "reply": "Courses include Arts, Science, Commerce, Management, Computer Applications, Social Work, Biotechnology, Data Science, Cyber Security, and more at UG and PG levels."
+    },
+    {
+        "domain": "hostel",
+        "keywords": [
+            "hostel facilities",
+            "hostel accommodation",
+            "hostel services"
+        ],
+        "reply": "Hostel facilities include secure accommodation, dining hall, study area, Wi-Fi, medical care, laundry, and 24/7 security."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "cafeteria",
+            "canteen",
+            "food facilities",
+            "dining"
+        ],
+        "reply": "Yes. The college has a canteen/cafeteria providing hygienic, affordable vegetarian food."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "lab facilities",
+            "laboratories",
+            "science labs",
+            "computer labs"
+        ],
+        "reply": "The college has well-equipped laboratories with modern instruments for science, computer science, and research programmes."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "gym facilities",
+            "gymnasium",
+            "fitness center",
+            "sports"
+        ],
+        "reply": "Yes. A gymnasium is available for students, along with indoor and outdoor sports facilities."
+    },
+    {
+        "domain": "scholarship",
+        "keywords": [
+            "scholarships",
+            "financial assistance",
+            "financial aid",
+            "stipend"
+        ],
+        "reply": "Yes. Students can avail government scholarships, merit scholarships, minority scholarships, and financial aid schemes."
+    },
+    {
+        "domain": "sports",
+        "keywords": [
+            "sports activities",
+            "athletics",
+            "games",
+            "competitions"
+        ],
+        "reply": "The college offers athletics, basketball, volleyball, badminton, yoga, kho-kho, and indoor games, with regular competitions."
+    },
+    {
+        "domain": "extra-curricular",
+        "keywords": [
+            "clubs",
+            "club activities",
+            "extracurricular",
+            "nss",
+            "ncc"
+        ],
+        "reply": "Clubs include NSS, NCC, Rotaract, Literary Club, Music, Dance, Drama, Environment Club, Entrepreneurship Cell, etc."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "college map",
+            "campus map",
+            "layout"
+        ],
+        "reply": "Yes. A campus map is available on the official website and at the college office."
+    },
+    {
+        "domain": "placement",
+        "keywords": [
+            "placement policies",
+            "campus interviews",
+            "recruitment",
+            "job placement"
+        ],
+        "reply": "The Career Guidance and Placement Cell trains students and conducts campus interviews. Many reputed companies recruit from PSGRKCW."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "transportation",
+            "bus facilities",
+            "college bus",
+            "transport"
+        ],
+        "reply": "Yes. The college provides bus transportation covering major areas of Coimbatore."
+    },
+    {
+        "domain": "events",
+        "keywords": [
+            "cultural events",
+            "fests",
+            "festivals",
+            "celebrations"
+        ],
+        "reply": "Yes. The college regularly conducts cultural festivals, department fests, celebrations, and competitions."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "infrastructure",
+            "campus facilities",
+            "modern classrooms"
+        ],
+        "reply": "The college has a well-maintained campus with modern classrooms, labs, auditorium, library, and green spaces."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "library facilities",
+            "digital resources",
+            "e-books",
+            "journals"
+        ],
+        "reply": "The library has thousands of books, journals, e-resources, digital databases, and e-learning access."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "nirf ranking",
+            "nirf category",
+            "top colleges ranking"
+        ],
+        "reply": "PSGRKCW is consistently ranked among the top colleges in India in the NIRF College category."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "diploma courses",
+            "certificate courses",
+            "skill-based programmes"
+        ],
+        "reply": "Yes. The college offers Diploma and Certificate courses in areas like computer applications, data analytics, fashion, and skill-based programmes."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "eligibility criteria",
+            "ug pg eligibility",
+            "admission requirements"
+        ],
+        "reply": "UG: Pass in 10+2 from a recognized board. PG: Relevant undergraduate degree. Specific courses may have subject-based requirements."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "rules and regulations",
+            "discipline",
+            "code of conduct"
+        ],
+        "reply": "Students must follow discipline, attendance norms, dress code, exam rules, and code of conduct set by the institution."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "college achievements",
+            "recent achievements",
+            "awards"
+        ],
+        "reply": "Achievements include high NIRF rankings, research excellence, university ranks, placements, and national awards."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "withdrawal",
+            "leaving college",
+            "official withdrawal"
+        ],
+        "reply": "Yes. Students can withdraw following official procedures, submission of documents, and fee regulations."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "modes of applying",
+            "online application",
+            "offline application"
+        ],
+        "reply": "Students can apply online through the official website. Some programmes may also allow offline applications."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "multiple programmes",
+            "more than one course",
+            "separate applications"
+        ],
+        "reply": "Yes. Students may apply for multiple programmes, but must submit separate applications."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "special quotas",
+            "reservation",
+            "sc st quota",
+            "sports quota"
+        ],
+        "reply": "Quotas include SC/ST, OBC, minority, sports, differently-abled, and management quota (as per norms)."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "principal",
+            "who is the principal",
+            "dr. p. b. harathi"
+        ],
+        "reply": "The Principal of PSGR Krishnammal College for Women is Dr. P. B. Harathi."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "contact officials",
+            "contact information",
+            "phone number",
+            "email"
+        ],
+        "reply": "You can contact college officials through the official website, phone numbers, email, or by visiting the college campus."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "deans and directors",
+            "heads of departments",
+            "college administration"
+        ],
+        "reply": "The college has academic deans, programme directors, and heads of departments overseeing various faculties."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "computational courses",
+            "it courses",
+            "computer science courses"
+        ],
+        "reply": "Courses include Computer Science, Information Technology, BCA, Data Science, Cyber Security, AI & Analytics."
+    },
+    {
+        "domain": "hostel",
+        "keywords": [
+            "grg hostel security",
+            "hostel safety",
+            "cctv surveillance"
+        ],
+        "reply": "Yes. The GRG hostel is highly secure, with wardens, CCTV surveillance, and restricted entry."
+    },
+    {
+        "domain": "hostel",
+        "keywords": [
+            "hostel fee",
+            "hostel cost",
+            "room rent"
+        ],
+        "reply": "Hostel fees generally range from ₹60,000 to ₹70,000 per year, depending on room type and facilities."
+    },
+    {
+        "domain": "hostel",
+        "keywords": [
+            "hostel admission",
+            "get into hostel",
+            "hostel priority"
+        ],
+        "reply": "Hostel admission is given based on distance, availability, and priority criteria, after college admission."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "wifi availability",
+            "internet access",
+            "campus wifi"
+        ],
+        "reply": "Yes. Wi-Fi connectivity is available for students within the campus."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "mobile phones allowed",
+            "phone policy",
+            "using mobiles"
+        ],
+        "reply": "Mobile phones are allowed with restrictions and should not be used during class hours."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "number of departments",
+            "how many departments",
+            "academic sections"
+        ],
+        "reply": "PSGR Krishnammal College for Women has more than 30 academic departments."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "admission process",
+            "applying",
+            "how to apply",
+            "application process",
+            "admission procedure"
+        ],
+        "reply": "Admission is done mainly through online application via the official college website. You can apply here: https://www.psgrkcw.ac.in/admission-enquiry-form/ . Selection is based on merit, eligibility criteria, and reservation norms. Shortlisted candidates are called for counseling/admission confirmation."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "college timings",
+            "working hours",
+            "class timings",
+            "college schedule"
+        ],
+        "reply": "College timings are generally 8:30 AM to 12:45 PM adided and for sf 12:45pm to 5:20 pm for most UG and PG programmes. Some courses may have extended hours for labs or activities."
+    },
+    {
+        "domain": "fees",
+        "keywords": [
+            "semester fees",
+            "fee structure",
+            "tuition fees",
+            "course fees",
+            "fees per semester"
+        ],
+        "reply": "Fees vary by course. Visit college office for specific details."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "departments",
+            "list of departments",
+            "number of departments",
+            "academic departments"
+        ],
+        "reply": "The college has 30+ academic departments across Arts, Science, Commerce, Management, Computer Science, Languages, Social Work, Physical Education, and Research."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "how many courses",
+            "courses offered",
+            "total courses",
+            "programmes"
+        ],
+        "reply": "PSGRKCW offers 80+ courses, including UG, PG, Diploma, Certificate, M.Phil., and Ph.D. programmes."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "dress code",
+            "uniform",
+            "clothing",
+            "attire",
+            "what to wear"
+        ],
+        "reply": "Yes. Students are expected to wear decent and modest attire. Traditional and formal dressing is encouraged. No specific uniform for regular days."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "available courses",
+            "courses list",
+            "what courses are available"
+        ],
+        "reply": "Courses include Arts, Science, Commerce, Management, Computer Applications, Social Work, Biotechnology, Data Science, Cyber Security, and more at UG and PG levels."
+    },
+    {
+        "domain": "hostel",
+        "keywords": [
+            "hostel facilities",
+            "hostel accommodation",
+            "staying in hostel",
+            "hostel amenities"
+        ],
+        "reply": "Hostel facilities include secure accommodation, dining hall, study area, Wi-Fi, medical care, laundry, and 24/7 security."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "cafeteria",
+            "canteen",
+            "food court",
+            "dining facilities"
+        ],
+        "reply": "Yes. The college has a canteen/cafeteria providing hygienic, affordable vegetarian food."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "gym",
+            "gymnasium",
+            "fitness center",
+            "sports facilities"
+        ],
+        "reply": "Yes. A gymnasium is available for students, along with indoor and outdoor sports facilities."
+    },
+    {
+        "domain": "sports",
+        "keywords": [
+            "sports activities",
+            "games",
+            "athletics",
+            "outdoor games",
+            "indoor games"
+        ],
+        "reply": "The college offers athletics, basketball, volleyball, badminton, yoga, kho-kho, and indoor games, with regular competitions."
+    },
+    {
+        "domain": "extracurricular",
+        "keywords": [
+            "extracurricular",
+            "club activities",
+            "clubs",
+            "nss",
+            "ncc",
+            "rotaract"
+        ],
+        "reply": "Clubs include NSS, NCC, Rotaract, Literary Club, Music, Dance, Drama, Environment Club, Entrepreneurship Cell, etc."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "college map",
+            "campus map",
+            "location map",
+            "layout"
+        ],
+        "reply": "Yes. A campus map is available on the official website and at the college office."
+    },
+    {
+        "domain": "placement",
+        "keywords": [
+            "placement",
+            "campus placement",
+            "campus interviews",
+            "recruitment",
+            "career guidance"
+        ],
+        "reply": "The Career Guidance and Placement Cell trains students and conducts campus interviews. Many reputed companies recruit from PSGRKCW."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "transportation",
+            "bus facilities",
+            "college bus",
+            "transport",
+            "bus service"
+        ],
+        "reply": "Yes. The college provides bus transportation covering major areas of Coimbatore."
+    },
+    {
+        "domain": "events",
+        "keywords": [
+            "cultural events",
+            "fests",
+            "college functions",
+            "celebrations",
+            "department fests"
+        ],
+        "reply": "Yes. The college regularly conducts cultural festivals, department fests, celebrations, and competitions."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "infrastructure",
+            "campus facilities",
+            "buildings",
+            "classrooms"
+        ],
+        "reply": "The college has a well-maintained campus with modern classrooms, labs, auditorium, library, and green spaces."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "library",
+            "digital resources",
+            "books",
+            "e-resources",
+            "journals"
+        ],
+        "reply": "The library has thousands of books, journals, e-resources, digital databases, and e-learning access."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "nirf ranking",
+            "ranking",
+            "college rank",
+            "nirf"
+        ],
+        "reply": "PSGRKCW is consistently ranked among the top colleges in India in the NIRF College category."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "diploma courses",
+            "certificate courses",
+            "short term courses",
+            "skill based programmes"
+        ],
+        "reply": "Yes. The college offers Diploma and Certificate courses in areas like computer applications, data analytics, fashion, and skill-based programmes."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "eligibility",
+            "ug eligibility",
+            "pg eligibility",
+            "admission criteria"
+        ],
+        "reply": "UG: Pass in 10+2 from a recognized board. PG: Relevant undergraduate degree. Specific courses may have subject-based requirements."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "rules and regulations",
+            "discipline",
+            "conduct",
+            "campus rules"
+        ],
+        "reply": "Students must follow discipline, attendance norms, dress code, exam rules, and code of conduct set by the institution."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "achievements",
+            "college awards",
+            "rankings",
+            "recognition"
+        ],
+        "reply": "Achievements include high NIRF rankings, research excellence, university ranks, placements, and national awards."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "withdrawal",
+            "leaving certificate",
+            "discontinue course"
+        ],
+        "reply": "Yes. Students can withdraw following official procedures, submission of documents, and fee regulations."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "modes of applying",
+            "online application",
+            "offline application",
+            "application method"
+        ],
+        "reply": "Students can apply online through the official website. Some programmes may also allow offline applications."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "multiple programmes",
+            "apply for multiple courses",
+            "more than one course"
+        ],
+        "reply": "Yes. Students may apply for multiple programmes, but must submit separate applications."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "quotas",
+            "reservation",
+            "special quota",
+            "sports quota",
+            "management quota"
+        ],
+        "reply": "Quotas include SC/ST, OBC, minority, sports, differently-abled, and management quota (as per norms)."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "principal",
+            "who is the principal",
+            "name of principal"
+        ],
+        "reply": "The Principal of PSGR Krishnammal College for Women is Dr. P. B. Harathi."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "contact",
+            "contact details",
+            "phone number",
+            "email",
+            "address"
+        ],
+        "reply": "Through official website, phone numbers, email, or by visiting the college campus."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "deans",
+            "directors",
+            "administration",
+            "heads of departments"
+        ],
+        "reply": "The college has academic deans, programme directors, and heads of departments overseeing various faculties."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "computational courses",
+            "computer courses",
+            "it courses",
+            "tech courses"
+        ],
+        "reply": "Courses include Computer Science, Information Technology, BCA, Data Science, Cyber Security, AI & Analytics."
+    },
+    {
+        "domain": "hostel",
+        "keywords": [
+            "hostel security",
+            "grg hostel",
+            "is hostel safe"
+        ],
+        "reply": "Yes. The GRG hostel is highly secure, with wardens, CCTV surveillance, and restricted entry."
+    },
+    {
+        "domain": "hostel",
+        "keywords": [
+            "hostel fees",
+            "hostel rent",
+            "accommodation cost"
+        ],
+        "reply": "Hostel fees generally range from ₹60,000 to ₹70,000 per year, depending on room type and facilities."
+    },
+    {
+        "domain": "hostel",
+        "keywords": [
+            "hostel admission",
+            "how to get hostel",
+            "hostel booking"
+        ],
+        "reply": "Hostel admission is given based on distance, availability, and priority criteria, after college admission."
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "wifi",
+            "internet",
+            "campus wifi"
+        ],
+        "reply": "Yes. Wi-Fi connectivity is available for students within the campus."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "mobile phone",
+            "phone allowed",
+            "mobile policy"
+        ],
+        "reply": "Mobile phones are allowed with restrictions and should not be used during class hours."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "autonomous",
+            "is autonomous"
+        ],
+        "reply": "Yes, PSGRKCW is an autonomous institution affiliated to Bharathiar University."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "affiliation",
+            "university"
+        ],
+        "reply": "Yes, it is affiliated to Bharathiar University, Coimbatore."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "entrance exam",
+            "entrance test"
+        ],
+        "reply": "Most programmes are merit-based; select PG courses may have entrance tests or interviews."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "age limit"
+        ],
+        "reply": "As per Government of Tamil Nadu and Bharathiar University norms."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "documents required",
+            "certificates needed"
+        ],
+        "reply": "Mark sheets, TC, community certificate (if applicable), and ID proof are required for application."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "application deadline",
+            "last date"
+        ],
+        "reply": "Yes, the last date is mentioned in the admission notification."
+    },
+    {
+        "domain": "fees",
+        "keywords": [
+            "scholarships",
+            "fee concession",
+            "refund"
+        ],
+        "reply": "Eligible students can avail government and institutional scholarships. Refunds are processed as per UGC and college rules."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "transfer certificate",
+            "tc mandatory"
+        ],
+        "reply": "Yes, TC submission is compulsory at admission."
+    },
+    {
+        "domain": "general",
+        "keywords": [
+            "hi",
+            "hello",
+            "hey"
+        ],
+        "reply": "Hello! 👋 I'm your PSGRKCW Assistant. How can I help you today?"
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean academic affairs",
+            "academic dean",
+            "who is the dean of academic affairs"
+        ],
+        "reply": "The Dean of Academic Affairs is Dr. A. Shamitha Begum."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean student affairs",
+            "student dean",
+            "who is the dean of student affairs"
+        ],
+        "reply": "The Dean of Student Affairs is Mrs. S. Vasandha."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean vocational programmes",
+            "vocational dean"
+        ],
+        "reply": "The Dean of Vocational Programmes is Mrs. G. Kalavathi."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean research",
+            "research dean",
+            "who is the dean of research"
+        ],
+        "reply": "The Dean of Research is Dr. Ramesh Subramani."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean costume design",
+            "dean apparel",
+            "costume dean"
+        ],
+        "reply": "The Dean of Costume & Apparel Designing & Academic Coordinator is Dr. Shanthi Radhakrishnan."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean mathematical sciences",
+            "maths dean",
+            "mathematics dean"
+        ],
+        "reply": "The Dean of Mathematical Sciences is Dr. L. Lakshmanan."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean academic support",
+            "alumni relations dean",
+            "alumni dean"
+        ],
+        "reply": "The Dean of Academic Support and Alumni Relations is Dr. R. Padmavathi."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "dean industry relations",
+            "grgsms dean",
+            "industry relations"
+        ],
+        "reply": "The Dean of Industry Relations (GRGSMS) is Dr. Vandana Madhavkumar."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "director campus operations",
+            "campus director",
+            "international relations director"
+        ],
+        "reply": "The Director of Campus Operations / International Relations is G. Kalaichelvan, Ph.D."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "list of deans",
+            "who are the deans",
+            "college deans"
+        ],
+        "reply": "Deans include Dr. A. Shamitha Begum (Academic), Mrs. S. Vasandha (Student Affairs), Dr. Ramesh Subramani (Research), and others overseeing various departments."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "founders",
+            "college founders",
+            "who founded the college",
+            "family founders"
+        ],
+        "reply": "The Founders of PSGR Krishnammal College for Women are Sri. G.R. Govindarajulu and Smt. G. Chandrakanthi."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "managing trustee",
+            "trustee",
+            "sri g rangaswamy",
+            "who is the managing trustee"
+        ],
+        "reply": "The Managing Trustee is Sri. G. Rangaswamy."
+    },
+    {
+        "domain": "administration",
+        "keywords": [
+            "chairperson",
+            "founder trustee",
+            "smt r nandini",
+            "who is the chairperson"
+        ],
+        "reply": "The Chairperson and Founder Trustee is Smt. R. Nandini."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "admission contact",
+            "admission phone number",
+            "admission email",
+            "contact for admission",
+            "admission query",
+            "contract queries"
+        ],
+        "reply": "For admission queries, please contact 080 49251252 or email admission@psgrkcw.ac.in."
+    },
+    {
+        "domain": "admission",
+        "keywords": [
+            "admission link",
+            "admission form link",
+            "online admission link",
+            "application link"
+        ],
+        "reply": "You can access the admission enquiry form here: https://www.psgrkcw.ac.in/admission-enquiry-form/"
+    },
+    {
+        "domain": "sports",
+        "keywords": [
+            "basketball"
+        ],
+        "reply": "basketball team is best team"
+    },
+    {
+        "domain": "facilities",
+        "keywords": [
+            "bca mam"
+        ],
+        "reply": "Shiba , and hepzi mam are best"
+    },
+    {
+        "domain": "fees",
+        "keywords": [
+            "bsc fees",
+            "bsc fee structure"
+        ],
+        "reply": "Fees for BSc: general: Rs.18000, management: Rs.25000"
+    },
+    {
+        "domain": "fees",
+        "keywords": [
+            "bcom fees",
+            "bcom fee structure"
+        ],
+        "reply": "Fees for BCom: general: Rs.16000, management: Rs.23000"
+    },
+    {
+        "domain": "placement",
+        "keywords": [
+            "placement",
+            "percentage",
+            "job",
+            "what is the placement percentage?"
+        ],
+        "reply": "PSGRKCW has an excellent placement record with more than 85% of eligible students placed."
+    },
+    {
+        "domain": "placement",
+        "keywords": [
+            "recruiters",
+            "companies",
+            "placement",
+            "who are the top recruiters?"
+        ],
+        "reply": "Top recruiters include TCS, Infosys, Wipro, Accenture, Deloitte and Cognizant."
+    },
+    {
+        "domain": "academics",
+        "keywords": [
+            "ug",
+            "ug courses",
+            "ug course",
+            "ug courses information"
+        ],
+        "reply": "Our undergraduate programs are meticulously designed to provide a strong foundation in your chosen field. Immerse yourself in an intellectually stimulating environment guided by experienced faculty. Foster a passion for learning with an innovative curriculum that integrates Industry 4.0 technologies like AI, robotics, and big data, ensuring you're well-prepared for the evolving professional landscape. courses : BCom,BBA,BA"
+    }
+]
